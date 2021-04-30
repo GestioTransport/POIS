@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Visor d'OAC's</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+    <!-- Mapbox GL -->
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css" rel='stylesheet' />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js"></script>
+    <script src="https://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
+
+        <!-- nearest point -->
+    <script src="https://unpkg.com/leaflet-knn@0.1.0/leaflet-knn.js"></script>
+
+
+    <!--multiselect-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+
+     <!--Locate Control-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+
+    <!--Geocoder -->
+    <script src="https://rawgit.com/k4r573n/leaflet-control-osm-geocoder/master/Control.OSMGeocoder.js"></script>
+    <link rel="stylesheet"
+        href="https://rawgit.com/k4r573n/leaflet-control-osm-geocoder/master/Control.OSMGeocoder.css" />
+
+<!-- Easy Button -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+
+    <!-- DADES -->
+    <script src="geojson.js" type="text/javascript"></script>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+    
+        html,
+        body,
+        #mapid {
+            height: 100%;
+         
+        }
+
+        #container {
+            width: 100%;
+
+        }
+
+        #geocodeError {
+                position: absolute;
+                display: none;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                padding: 25px;
+                width: 250px;
+                height: 150px;
+                background: #fff;
+                border: 2px solid #000;   
+                font-weight: bold;
+                font-size: 1.1em;
+                text-align: center;
+                z-index: 2000;
+            }
+
+            #errorCloseBtn {
+            position: absolute;
+            padding: 8px;    
+            top: 2px;
+            right: 4px;
+            font-weight: bold;
+            font-size: 0.96em;
+            }
+
+            #errorText {
+                margin-top: 30px;
+            }
+
+
+        .leaflet-control-layers-toggle:after {
+            content: "Mapa Base";
+            color: rgb(26, 24, 24);
+            font-weight: bold;
+            padding-right: 10px;
+            font-size: 14px;
+        }
+
+        .leaflet-control-layers-toggle {
+            width: auto;
+            background-position: 3px 50%;
+            padding-left: 36px;
+            text-decoration: none;
+            line-height: 36px;
+        }
+
+        .multiselect {
+            
+            background-image: linear-gradient(135deg, rgb(0, 153, 137), rgb(175,203,55));
+            background-color:  rgb(0, 153, 137);
+            color: white;
+            z-index: 10000;
+            position: absolute;
+            border: 0px;
+            box-shadow: 2px 2px 5px #aaaaaa;
+
+        }
+
+        .multiselect:hover, .multiselect:focus {
+            background-image: linear-gradient(135deg, rgb(0, 120, 107), rgb(143,170,27)) !important;
+            background-color: rgb(56, 95, 83) ;
+            color: white !important;
+        }
+
+        .poptitle {
+            font-size: 18px;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        .pop {
+            text-align: center;
+        }
+
+        .logo {
+            width: 150px;
+            text-align: center;
+        }
+
+        .titol {
+            font-weight: bolder;
+            font-size: 16px;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .leaflet-control-container .leaflet-routing-container-hide {
+          display: none;
+          }
+
+          .barra, .btn-group{
+			z-index: 10000;
+		}
+
+        .barra {
+            background: white;
+            border-radius: 5px;
+            
+            z-index: 10000;
+            position: relative;
+        }
+        .tooltip-mapa{
+            font-size: 1.20em;
+        }
+        tbody{
+            text-align: center;
+        }
+        .tit{
+            text-align: center;
+            background-image: linear-gradient(135deg, rgb(0, 153, 137), rgb(175,203,55));
+            background-color:  rgb(0, 153, 137);
+            color: white;
+        }
+      .ix{
+          font-weight: bolder;
+          
+      }  
+
+      .legend{
+        position:absolute;
+        z-index: 100000;
+        bottom: 0;
+        right: 0;
+      }
+
+    </style>
+</head>
+
+<body>
+    <div class="legend">
+        <img src="legend.PNG" alt="Llegenda" width="200" height="60">
+    </div>
+
+    <div id="mapid">
+        <div class="container">
+            <script type="text/javascript">
+    
+                /****** INIT ******/
+                $(document).ready(function () {
+                    $('#poblacio').multiselect({
+                        includeSelectAllOption: true,
+                        buttonWidth: 250,
+                        enableFiltering: true,
+                        enableCaseInsensitiveFiltering: true,
+                        maxHeight: 450,
+                        allSelectedText: 'Població'
+                    });
+    
+                    $('#operador').multiselect({
+                        includeSelectAllOption: true,
+                        buttonWidth: 250,
+                        enableFiltering: true,
+                        enableCaseInsensitiveFiltering: true,
+                        maxHeight: 450,
+                        allSelectedText: 'Operador'
+                    });
+
+                    $('#sector').multiselect({
+                        includeSelectAllOption: true,
+                        buttonWidth: 250,
+                        enableFiltering: true,
+                        enableCaseInsensitiveFiltering: true,
+                        maxHeight: 450,
+                        allSelectedText: 'Corona tarifaria'
+                    });
+    
+    
+                    primeracapa.addData(data)
+    
+                    $("#poblacio").multiselect('selectAll', false);
+                    $("#poblacio").multiselect('updateButtonText');
+                    
+                    $("#operador").multiselect('selectAll', false);
+                    $("#operador").multiselect('updateButtonText');
+                    
+                    $("#sector").multiselect('selectAll', false);
+                    $("#sector").multiselect('updateButtonText');
+                });
+    
+            </script>
+            <select id="poblacio" multiple="multiple" onchange="">
+                <script>
+                    var arr = new Array
+                    for (var i = 0; i < data.features.length; i++) {
+                        arr.push(data.features[i].properties.poblacio)
+                        var unique = [...new Set(arr)];
+                    }
+                    for (var i = 0; i < unique.length; i++) {
+                        var option = document.createElement("option");
+                        var text = document.createTextNode(unique[i]);
+                        option.appendChild(text);
+                        option.value = unique[i]
+                        var element = document.getElementById("poblacio");
+                        element.appendChild(option);
+                    }
+                </script>
+            </select>
+            <select id="operador" multiple="multiple" onchange="">
+                <script>
+                    var arr = new Array
+                    for (var i = 0; i < data.features.length; i++) {
+                        arr.push(data.features[i].properties.nom_operad)
+                        var unique = [...new Set(arr)];
+                    }
+                    for (var i = 0; i < unique.length; i++) {
+                        var option = document.createElement("option");
+                        var text = document.createTextNode(unique[i]);
+                        option.appendChild(text);
+                        option.value = unique[i]
+                        var element = document.getElementById("operador");
+                        element.appendChild(option);
+                    }
+                </script>
+            </select>
+
+            <select id="sector" multiple="multiple" onchange="">
+                <script>
+                    var arr = new Array
+                    for (var i = 0; i < data.features.length; i++) {
+                        arr.push(data.features[i].properties.sector)
+                        var unique = [...new Set(arr)];
+                    }
+                    for (var i = 0; i < unique.length; i++) {
+                        var option = document.createElement("option");
+                        var text = document.createTextNode(unique[i]);
+                        option.appendChild(text);
+                        option.value = unique[i]
+                        var element = document.getElementById("sector");
+                        element.appendChild(option);
+                    }
+                </script>
+            </select>
+         
+        </div>
+
+       
+    </div>
+    <script>
+        var selectedPoblacio
+        var selectedOperator
+        var selectedSector
+        var inicialitzat = 0; // 0: encara no s'ha activat el filtre cap cop (actua sobre primeracapa) / 1: ja s'ha activat el filtre (actua sobre geojsonlayer)
+           
+        ACCESS_TOKEN = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+        var mymap = L.map('mapid', {
+            minZoom: 9,
+            maxBounds: [
+        //sud-oest
+        [40.33825, -0.70391],
+        //nord-est
+        [42.88239, 3.96357]
+        ], 
+        }).setView([41.392264, 2.162247], 12);
+
+        var Tmobilitat = L.mapboxGL({
+			//style: 'http://194.140.3.242:81/mapservice/style/t-mobilitat'
+			style: 'https://test-tmob.atm.cat/mapservice/style/t-mobilitat',
+			 accessToken: ACCESS_TOKEN,
+		})
+		
+	
+        var Tmob_corones = L.mapboxGL({
+            style: 'mapbox://styles/gestiotransport/ckgrq5adb0h5x19l41qcl7zbj',
+			 accessToken: 'pk.eyJ1IjoiZ2VzdGlvdHJhbnNwb3J0IiwiYSI6ImNrOGluZGFscDAxaGQzaG10am44YW91bHIifQ.7Y_RPPdMNmQSjqm55YenAQ',
+        }).addTo(mymap);
+
+
+        var basemap = {
+            'Corones tarifàries': Tmob_corones,
+            'T-mobilitat': Tmobilitat
+			
+        };
+		
+
+        L.control.layers(basemap).addTo(mymap);
+        L.control.scale().addTo(mymap);
+        var grup = L.layerGroup().addTo(mymap);
+
+        primeracapa = L.geoJSON(null, {
+            pointToLayer: function (feature, latlng) {
+                return L.marker(latlng, {icon:greenIcon});
+            },
+            style: estil,
+            onEachFeature: popUpInfo
+
+        }).addTo(mymap)
+
+        var greenIcon = L.icon({
+            iconUrl: 'oac.png',
+            
+            //iconSize:     [38, 95], // size of the icon
+           // shadowSize:   [50, 64], // size of the shadow
+            //iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+            //shadowAnchor: [4, 62],  // the same for the shadow
+          //  popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
+
+
+        $('#poblacio').on('change', function (element, checked) {
+            mymap.removeLayer(primeracapa)
+            selectedPoblacio = $(this).val();
+            selectedOperator = $('#operador').val();
+            selectedSector = $('#sector').val();
+            geojsonLayer.clearLayers()
+            geojsonLayer.addData(data)
+            inicialitzat = 1;
+        });
+
+        $('#operador').on('change', function (element, checked) {
+            mymap.removeLayer(primeracapa)
+            selectedOperator = $(this).val();
+            selectedPoblacio = $('#poblacio').val();
+            selectedSector = $('#sector').val();
+            geojsonLayer.clearLayers()
+            geojsonLayer.addData(data)
+            inicialitzat = 1;
+        });
+
+        $('#sector').on('change', function (element, checked) {
+            mymap.removeLayer(primeracapa)
+            selectedSector = $(this).val();
+            selectedOperator = $('#operador').val();
+            selectedPoblacio = $('#poblacio').val();
+            geojsonLayer.clearLayers()
+            geojsonLayer.addData(data)
+            inicialitzat = 1;
+        });
+        
+        
+
+         //creem caixa d'error
+         var geocodeErEl = document.createElement('div');
+        geocodeErEl.setAttribute('id', 'geocodeError');
+            
+        //botó de tancar
+        var geocoderErCloseEl = document.createElement('input');
+        geocoderErCloseEl.setAttribute('id','errorCloseBtn');
+        geocoderErCloseEl.setAttribute('type','button');
+        geocoderErCloseEl.setAttribute('value', 'X');
+            
+        //text error
+        var geocodeErTextEl = document.createElement('p');
+        geocodeErTextEl.setAttribute('id','errorText');
+            
+        
+        jQuery(geocodeErEl).append(geocoderErCloseEl);
+        jQuery(geocodeErEl).append(geocodeErTextEl);
+        jQuery('#mapid').append(geocodeErEl);
+
+        // OSM Geocoder
+        var osmGeocoder = new L.Control.OSMGeocoder({
+            collapsed: false,
+            position: 'topright',
+            text: 'Cerca',
+            placeholder: 'Direcció, Municipi, CP...',    
+            callback: function(results) {
+            
+            var geocodeErrorBox = jQuery('#geocodeError');
+            var geocodeErrorText = jQuery('#errorText');
+            
+            // close error box if it is open
+            if (!geocodeErrorBox.css('display','none')) {
+                geocodeErrorBox.hide();
+            }
+            
+            // If no results are found, add a message to the screen
+            if (results.length == 0) {
+				// placeholder="" is key to selecting DOM element
+                var searchText = jQuery('.leaflet-control-geocoder-form input[placeholder="Enter address"]').val();
+                // get search text or result text and put that in box
+                geocodeErrorText.html('No s\'ha trobat la següent adreça: ' + searchText);
+                geocodeErrorBox.show();
+ 
+                return;
+			}
+            else if(geojsonLayer.getLayers().length == 0 && inicialitzat == 1){
+                geocodeErrorText.html('Seleccioneu més opcions als filtres');
+                geocodeErrorBox.show();
+            }
+            else{
+                    // get coordinates for result
+                var coords = L.latLng(results[0].lat,results[0].lon);
+
+                if (inicialitzat == 0){ // busca a la capa primeracapa si encara no s'han tocat els filtres
+                    punts_index = leafletKnn(primeracapa);
+                    mymap.fitBounds(primeracapa.getBounds());
+                }
+                else{ // busca a la capa geojsonLayer en la resta de casos
+                    punts_index = leafletKnn(geojsonLayer);
+                    mymap.fitBounds(geojsonLayer.getBounds());
+                }
+                
+                var nearestResult = punts_index.nearest(coords, 1)[0];
+                nearestResult.layer.bindPopup("OFICINA MÉS PROPERA A LA DIRECCIÓ BUSCADA").openPopup();
+                mymap.setView(nearestResult.latLng,13); 
+            }
+
+        }
+            }).addTo(mymap);  
+
+            // add event listener to click event for error message close button
+            jQuery('#errorCloseBtn').click(function() {
+            jQuery('#geocodeError').hide();
+            })
+        
+    
+      
+      
+        function popUpInfo(feature, layer) {
+         
+            const popupContent =
+            
+                `<table>
+                  
+                    <tr>
+                        <th>Horari:   </th>
+                        <td>    ${feature.properties.horari}</td>
+                    </tr>
+                        <th>Telèfon:</th>
+                        <td><strong>${feature.properties.tel}</strong></td>
+                    </tr>
+                    <tr>
+                        <th>Direcció:   </th>
+                        <td>      ${feature.properties.direccio}</td>
+                    </tr>
+                    <tr>
+                        <th>Corona Tarifària:   </th>
+                        <td>    <strong>  ${feature.properties.sector} </strong></td>
+                    </tr>
+
+                    <tr>
+                        <th>   </th>
+                        <td>     ${feature.properties.observacions}</td>
+                    </tr>
+                    <tr>             
+                        <p class='pop'><img style='background-color: rgba(255, 255, 255, 0.8); width: 200px;' src = ${feature.properties.img}></p>
+                    </tr>
+                    
+                                           
+                        <table class="table table-bordered" style="margin-top: 5px;">
+                            <caption style="text-align:center; color: white; font-weight:bold; font-size: 12px; background-color: #939598">SERVEIS</caption>
+                            <thead>
+                                <tr>
+                                    <th class="tit" scope="col">Alta de client</th>
+                                    <th class="tit" scope="col">Emissió de suport</th>
+                                    <th class="tit" scope="col">Càrrega i recàrrega</th>
+                                    
+                                </tr>
+                            </thead>
+                           
+
+                            <tbody>
+                                <tr>
+                                    <td class="ix">
+                                       ${feature.properties.alta_client}
+                                    </td>
+                                    <td class="ix">
+                                        ${feature.properties.emissio_suport}
+                                    </td>
+                                    <td class="ix">
+                                         ${feature.properties.carrega_recarrega}
+                                    </td>
+                                
+                            </tbody>
+
+                            <thead>
+                                <tr>
+                                    <th class="tit" scope="col">Alta de perfil T-16</th>
+                                    <th class="tit" scope="col">Alta de perfil FN/FM</th>
+                                    <th class="tit" scope="col">Alta de perfil aturat</th>
+                                
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <td class="ix">
+                                       ${feature.properties.alta_t16}
+                                    </td>
+                                    <td class="ix">
+                                       ${feature.properties.alta_fn_fm}
+                                    </td>
+                                    <td class="ix">
+                                        ${feature.properties.alta_aturat}
+                                    </td>
+                                   
+                                </tr>
+                            </tbody>
+
+                            <thead>
+                                <tr>
+                                    <th class="tit" scope="col">Bescanvis i duplicats</th>
+                                    <th class="tit" scope="col">Factures</th>  
+                                    <th class="tit" scope="col">Baixa de client</th>                         
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="ix">
+                                        ${feature.properties.bescanvis_duplicats}
+                                    </td>
+                                    <td class="ix">
+                                        ${feature.properties.factures}
+                                    </td>
+                                    <td class="ix">
+                                  ${feature.properties.baixa_client}
+                                </td>
+                                  
+                                </tr>
+                                                
+                            </tbody>
+                            
+                            <thead>
+                                <th class="tit" scope="col">Gestió d’usuaris i títols</th>
+                                    <th class="tit" scope="col">Gestió d'incidències</th>
+                                    <th class="tit" scope="col">Baixa de suport</th>
+                               
+                            </thead>
+                            <tbody>
+                                <td class="ix">
+                                       ${feature.properties.gestio_usuaris_titols_suports}
+                                    </td>
+                                    <td class="ix">
+                                        ${feature.properties.gestio_incidencies}
+                                    </td>
+                                    <td class="ix">
+                                       ${feature.properties.baixa_suport}
+                                    </td>
+                                
+                                
+                            </tbody>
+                          
+                        </table>
+                    </tr>
+                  
+                </table>
+                <p class="pop">   <a class="btn btn-danger" style="color:white; font-size:14px; height: 30px; padding-bottom:5px;" target="_blank" href= "${feature.properties.URL}" role="button"> Ves al web de l'Operadora</a></p>
+                `;
+                                     
+                    
+                  
+
+            
+            var customOptions =
+                {
+                'maxWidth': '1100',
+                'width': '200',
+                'className' : 'popupContent'
+                }
+
+            if (feature.properties) {
+                layer.bindPopup(popupContent, customOptions);
+                layer.bindTooltip(feature.properties.nom_operad, { closeButton: false, offset: L.point(0, -20) });
+            }
+            
+       
+                
+        }
+
+        // function colorPerTipus(d) {
+        //     return d == "a" ? '#941418' :
+        //         d == "s" ? '#437024' :
+        //             d == "d" ? 'blue' :
+        //                 d == "f" ? '#cf9d22' :
+        //                     'black';
+        // };
+      
+
+        function estil(feature) {
+            
+           return {
+               radius: 7,
+               fillColor: '#009989',//colorPerTipus(feature.properties.servei),
+               color: '#939598',
+               weight: 1,
+               opacity: 1,
+               fillOpacity: 0.8
+            };
+        };
+
+        L.control.locate({    position: 'topleft', flyTo: "true", initialZoomLevel: "13"   }).addTo(mymap);
+
+        geojsonLayer = L.geoJSON(null, {
+            pointToLayer: function (feature, latlng) {
+                return L.marker(latlng, {icon:greenIcon});
+            },
+           // style: estil,
+            onEachFeature: popUpInfo,
+            filter: function (feature, layer) {
+                const isPobChecked = selectedPoblacio.includes(feature.properties.poblacio)
+                const isOpChecked = selectedOperator.includes(feature.properties.nom_operad)
+                const isSectChecked = selectedSector.includes(feature.properties.sector)
+                return isPobChecked && isOpChecked && isSectChecked
+            }
+        }).addTo(mymap)
+
+        // var legend = L.control({ position: "bottomright" });
+
+        // legend.onAdd = function (mymap) {
+        //     var div = L.DomUtil.create("div", "legend");
+        //     div.innerHTML += "<p class='titol'>Serveis</p>";
+        //     div.innerHTML += '<i style="background: #941418; border-radius: 0.8em"></i><span>A</span><br>';
+        //     div.innerHTML += '<i style="background: #437024; border-radius: 0.8em"></i><span>S</span><br>';
+        //     div.innerHTML += '<i style="background: blue; border-radius: 0.8em"></i><span>D</span><br>';
+        //     div.innerHTML += '<i style="background: #cf9d22; border-radius: 0.8em"></i><span>F</span><br>';
+
+        //     return div;
+        // };
+
+        // legend.addTo(mymap);
+
+    
+    </script>
+
+    
+</body>
+
+</html>
