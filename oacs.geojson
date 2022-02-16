@@ -1,5 +1,6 @@
 {
     "type": "FeatureCollection",
+    "name": "oacs",
     "features": [
         {
             "type": "Feature",
@@ -26,9 +27,11 @@
                 "baixa_client": "tick.png",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "FGC.png",
-                "URL": "https://citaprevia.fgc.cat/fgc/?idioma=ca_ES&id_oficina_sele=0#nbb"
+                "URL": "https:\/\/citaprevia.fgc.cat\/fgc\/?idioma=ca_ES&id_oficina_sele=0#nbb",
+                "tipus_horari": "MT",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -65,9 +68,11 @@
                 "baixa_client": "tick.png",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "FGC.png",
-                "URL": "https://citaprevia.fgc.cat/fgc/?idioma=ca_ES&id_oficina_sele=0#nbb"
+                "URL": "https:\/\/citaprevia.fgc.cat\/fgc\/?idioma=ca_ES&id_oficina_sele=0#nbb",
+                "tipus_horari": "MT",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -104,9 +109,11 @@
                 "baixa_client": "tick.png",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "t-mob.png",
-                "URL": "https://t-mobilitat.atm.cat/web/t-mobilitat/atencio-i-ajuda/cita-previa"
+                "URL": "https:\/\/t-mobilitat.atm.cat\/web\/t-mobilitat\/atencio-i-ajuda\/cita-previa",
+                "tipus_horari": "MTC",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -123,9 +130,9 @@
             "properties": {
                 "poblacio": "Sant Joan Despí",
                 "tel": "900 70 11 81",
-                "horari": "Dilluns a divendres: 09:00-19:00 / Juliol i agost, dilluns a divendres: 08:00-15:00",
+                "horari": "Dilluns a divendres: 09:00-19:00 \/ Juliol i agost, dilluns a divendres: 08:00-15:00",
                 "nom_operad": "TRAM",
-                "direccio": "Av. Barcelona s/n, 08970 (Sant Joan Despí)",
+                "direccio": "Av. Barcelona s\/n, 08970 (Sant Joan Despí)",
                 "img": "TRAM.jpg",
                 "alta_client": "tick.png",
                 "emissio_suport": "",
@@ -143,9 +150,11 @@
                 "baixa_client": "tick.png",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "TRAM.jpg",
-                "URL": "https://www.tram.cat/es/canales-de-contacto"
+                "URL": "https:\/\/www.tram.cat\/es\/canales-de-contacto",
+                "tipus_horari": "MT",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -162,9 +171,9 @@
             "properties": {
                 "poblacio": "Sant Adrià de Besòs",
                 "tel": "900 70 11 81",
-                "horari": "Dilluns a divendres: 09:00-19:00 / Juliol i agost, dilluns a divendres: 08:00-15:00",
+                "horari": "Dilluns a divendres: 09:00-19:00 \/ Juliol i agost, dilluns a divendres: 08:00-15:00",
                 "nom_operad": "TRAM",
-                "direccio": "Av. Eduard Maristany, s/n, 08930 (Sant Adrià de Besòs)",
+                "direccio": "Av. Eduard Maristany, s\/n, 08930 (Sant Adrià de Besòs)",
                 "img": "TRAM.jpg",
                 "alta_client": "tick.png",
                 "emissio_suport": "",
@@ -182,9 +191,11 @@
                 "baixa_client": "tick.png",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "TRAM.jpg",
-                "URL": "https://www.tram.cat/es/canales-de-contacto"
+                "URL": "https:\/\/www.tram.cat\/es\/canales-de-contacto",
+                "tipus_horari": "MT",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -221,9 +232,11 @@
                 "baixa_client": "tick.png",
                 "observacions": "Sense cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat"
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
+                "tipus_horari": "MT",
+                "cita": "NO"
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -260,15 +273,17 @@
                 "baixa_client": "tick.png",
                 "observacions": "Sense cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat"
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
+                "tipus_horari": "M",
+                "cita": "NO"
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        2.1004471515633143,
+                        2.100447151563314,
                         41.364080267315224
                     ]
                 ]
@@ -299,15 +314,17 @@
                 "baixa_client": "tick.png",
                 "observacions": "Sense cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "Teisa.jpg",
-                "URL": "http://www.teisa-bus.com/es/atencion-cliente"
+                "URL": "http:\/\/www.teisa-bus.com\/es\/atencion-cliente",
+                "tipus_horari": "MTD",
+                "cita": "NO"
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        2.1675782676747604,
+                        2.16757826767476,
                         41.392105311784235
                     ]
                 ]
@@ -338,9 +355,11 @@
                 "baixa_client": "tick.png",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa"
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "tipus_horari": "MT",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -377,9 +396,11 @@
                 "baixa_client": "tick.png",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa"
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "tipus_horari": "MT",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -416,16 +437,18 @@
                 "baixa_client": "tick.png",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa"
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "tipus_horari": "MTC",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
                         2.174227185945097,
-                        41.40447159852092
+                        41.404471598520921
                     ]
                 ]
             }
@@ -438,7 +461,7 @@
                 "horari": "Dilluns a divendres: 09:00-14:00 i 16:00-18:30",
                 "nom_operad": "Soler i Sauret",
                 "direccio": "Ctra. Laureà Miró, 426,  08980, Sant Feliu de Llobregat",
-                "img": "",
+                "img": "solersauret.jpg",
                 "alta_client": "tick.png",
                 "emissio_suport": "tick.png",
                 "carrega_recarrega": "tick.png",
@@ -457,14 +480,16 @@
                 "sector": 1,
                 "corona": "",
                 "img_cgit": "solersauret.jpg",
-                "URL": ""
+                "URL": "",
+                "tipus_horari": "MT",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        2.0347698883906777,
-                        41.39464925023017
+                        2.034769888390678,
+                        41.394649250230167
                     ]
                 ]
             }
@@ -476,7 +501,7 @@
                 "tel": "900 70 11 49",
                 "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:00; diumenges, 09:00-14:00",
                 "nom_operad": "TMB",
-                "direccio": "Parada de metro Arc de Triomf L1, vestíbul (secundari), Accés Plaça d'Andradé Malraux i c/Napols 71-69, 08018 Barcelona",
+                "direccio": "Parada de metro Arc de Triomf L1, vestíbul (secundari), Accés Plaça d'Andradé Malraux i c\/Napols 71-69, 08018 Barcelona",
                 "img": "TMB.jpg",
                 "alta_client": "tick.png",
                 "emissio_suport": "tick.png",
@@ -494,9 +519,11 @@
                 "baixa_client": "",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa"
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "tipus_horari": "MTC",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -515,7 +542,7 @@
                 "tel": "900 70 11 49",
                 "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:00; diumenges, 09:00-14:00",
                 "nom_operad": "TMB",
-                "direccio": "Parada de metro Espanya L1, vestíbul (secundari), Accés Creu coberta (Plaça Espanya davant núm. 6-8) i c/Tarragona (enfront centre comercial Arenas) 08004 Barcelona",
+                "direccio": "Parada de metro Espanya L1, vestíbul (secundari), Accés Creu coberta (Plaça Espanya davant núm. 6-8) i c\/Tarragona (enfront centre comercial Arenas) 08004 Barcelona",
                 "img": "TMB.jpg",
                 "alta_client": "tick.png",
                 "emissio_suport": "tick.png",
@@ -533,16 +560,18 @@
                 "baixa_client": "",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa"
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "tipus_horari": "MTC",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        2.1483543962816576,
-                        41.37531070623403
+                        2.148354396281658,
+                        41.375310706234032
                     ]
                 ]
             }
@@ -572,15 +601,17 @@
                 "baixa_client": "",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa"
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "tipus_horari": "MTC",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        2.1163426996371437,
+                        2.116342699637144,
                         41.368594213908445
                     ]
                 ]
@@ -611,15 +642,17 @@
                 "baixa_client": "",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa"
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "tipus_horari": "MTC",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
-                        2.1501448515637596,
+                        2.15014485156376,
                         41.406627192707994
                     ]
                 ]
@@ -629,15 +662,12 @@
             "type": "Feature",
             "properties": {
                 "poblacio": "Sabadell",
+                "tel": "93 594 98 74",
                 "horari": "Dilluns a divendres: 08:00-18:00",
                 "nom_operad": "Sarbus",
-                "tel": "93 594 98 74",
                 "direccio": "Carrer Pla de Fonollar, 21, Sabadell",
                 "img": "moventis.jpg",
                 "alta_client": "tick.png",
-                "corona": "2C",
-                "sector": 1,
-                "URL": "https://www.moventis.es/es/Marcas/moventis-sarbus-la-vallesana",
                 "emissio_suport": "tick.png",
                 "carrega_recarrega": "tick.png",
                 "alta_t16": "tick.png",
@@ -652,14 +682,17 @@
                 "baixa_suport": "tick.png",
                 "baixa_client": "tick.png",
                 "observacions": "Pagament en efectiu",
-                "img_cgit": "moventis.jpg"
-                
+                "sector": 1,
+                "corona": "2C",
+                "img_cgit": "moventis.jpg",
+                "URL": "https:\/\/www.moventis.es\/es\/Marcas\/moventis-sarbus-la-vallesana",
+                "tipus_horari": "MT"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.1107804775238037,
-                    41.51397616142466
+                    2.110780477523804,
+                    41.513976161424658
                 ]
             }
         },
@@ -670,7 +703,7 @@
                 "tel": "900 41 00 41",
                 "horari": "Dilluns a divendres:  09:00-13:00 i 15:00-19:00",
                 "nom_operad": "Renfe Rodalies de Catalunya",
-                "direccio": "Estació de Plaça Catalunya, Plaça Catalunya, s/n, 08002, Barcelona",
+                "direccio": "Estació de Plaça Catalunya, Plaça Catalunya, s\/n, 08002, Barcelona",
                 "img": "renfe.jpg",
                 "alta_client": "tick.png",
                 "emissio_suport": "tick.png",
@@ -686,11 +719,13 @@
                 "gestio_incidencies": "tick.png",
                 "baixa_suport": "tick.png",
                 "baixa_client": "tick.png",
+                "observacions": "Sense cita prèvia",
                 "sector": 1,
-                "corona": 1,
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
                 "img_cgit": "renfe.jpg",
-                "observacions": "Sense cita prèvia"
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
+                "tipus_horari": "MT",
+                "cita": "NO"
             },
             "geometry": {
                 "type": "Point",
@@ -723,17 +758,19 @@
                 "gestio_incidencies": "tick.png",
                 "baixa_suport": "tick.png",
                 "baixa_client": "tick.png",
+                "observacions": "Sense cita prèvia",
                 "sector": 1,
-                "corona": 1,
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
                 "img_cgit": "renfe.jpg",
-                "observacions": "Sense cita prèvia"
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
+                "tipus_horari": "MT",
+                "cita": "NO"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     2.165028154850006,
-                    41.39243106544542
+                    41.392431065445422
                 ]
             }
         },
@@ -760,11 +797,13 @@
                 "gestio_incidencies": "tick.png",
                 "baixa_suport": "tick.png",
                 "baixa_client": "tick.png",
+                "observacions": "Sense cita prèvia",
                 "sector": 1,
-                "corona": 1,
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
                 "img_cgit": "renfe.jpg",
-                "observacions": "Sense cita prèvia"
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
+                "tipus_horari": "M",
+                "cita": "NO"
             },
             "geometry": {
                 "type": "Point",
@@ -779,8 +818,8 @@
             "properties": {
                 "poblacio": "Gavà",
                 "tel": "900 41 00 41",
-                "nom_operad": "Renfe Rodalies de Catalunya",
                 "horari": "Dilluns a divendres:  09:00-13:00",
+                "nom_operad": "Renfe Rodalies de Catalunya",
                 "direccio": "Estació de Gavà, Carrer Salamanca, 1, 08850, Gavà",
                 "img": "renfe.jpg",
                 "alta_client": "tick.png",
@@ -797,17 +836,19 @@
                 "gestio_incidencies": "tick.png",
                 "baixa_suport": "tick.png",
                 "baixa_client": "tick.png",
+                "observacions": "Sense cita prèvia",
                 "sector": 1,
-                "corona": 1,
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
                 "img_cgit": "renfe.jpg",
-                "observacions": "Sense cita prèvia"
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
+                "tipus_horari": "M",
+                "cita": "NO"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     2.010505422949791,
-                    41.3033518897276
+                    41.303351889727601
                 ]
             }
         },
@@ -816,10 +857,10 @@
             "properties": {
                 "poblacio": "Barcelona",
                 "tel": "900 41 00 41",
-                "nom_operad": "Renfe Rodalies de Catalunya",
-                "img": "renfe.jpg",
-                "direccio": "Estació del Clot,  Plaça Canonge Rodò, s/n, 08027, Barcelona",
                 "horari": "Dilluns a divendres: 09:00-13:00 ",
+                "nom_operad": "Renfe Rodalies de Catalunya",
+                "direccio": "Estació del Clot,  Plaça Canonge Rodò, s\/n, 08027, Barcelona",
+                "img": "renfe.jpg",
                 "alta_client": "tick.png",
                 "emissio_suport": "tick.png",
                 "carrega_recarrega": "tick.png",
@@ -836,15 +877,17 @@
                 "baixa_client": "tick.png",
                 "observacions": "Sense cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat"
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
+                "tipus_horari": "M",
+                "cita": "NO"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     2.188046872615814,
-                    41.4098200883385
+                    41.409820088338499
                 ]
             }
         },
@@ -867,21 +910,23 @@
                 "duplicats": "",
                 "consultes": "tick.png",
                 "factures": "tick.png",
-                "gestio_incidencies": "tick.png",
                 "gestio_usuaris_titols_suports": "tick.png",
+                "gestio_incidencies": "tick.png",
                 "baixa_suport": "",
                 "baixa_client": "",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "baixbus.png",
-                "URL": "https://www.baixbus.cat/es/atencion-al-viajero/oficina-de-atencion-horarios-y-servicio"
+                "URL": "https:\/\/www.baixbus.cat\/es\/atencion-al-viajero\/oficina-de-atencion-horarios-y-servicio",
+                "tipus_horari": "M",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.0205670595169067,
-                    41.31488944491789
+                    2.020567059516907,
+                    41.314889444917888
                 ]
             }
         },
@@ -901,24 +946,26 @@
                 "alta_fn_fm": "",
                 "alta_aturat": "",
                 "bescanvis": "tick.png",
-                "consultes": "tick.png",
-                "gestio_incidencies": "tick.png",
                 "duplicats": "",
+                "consultes": "tick.png",
                 "factures": "",
                 "gestio_usuaris_titols_suports": "",
+                "gestio_incidencies": "tick.png",
                 "baixa_suport": "",
                 "baixa_client": "",
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
                 "corona": "2B",
                 "img_cgit": "Autocorb.png",
-                "URL": "https://www.autocorb.com/es/contacte/"
+                "URL": "https:\/\/www.autocorb.com\/es\/contacte\/",
+                "tipus_horari": "MT",
+                "cita": "SI"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    1.9177472591400144,
-                    41.41493149149915
+                    1.917747259140014,
+                    41.414931491499154
                 ]
             }
         }
