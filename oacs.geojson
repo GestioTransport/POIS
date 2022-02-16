@@ -856,7 +856,7 @@
                 "horari": "Dilluns a divendres: 08:00-14:00",
                 "nom_operad": "Baixbus",
                 "direccio": "Carretera de la Vila, 2, 08840, Viladecans",
-                "img": "baixbus.jpg",
+                "img": "baixbus.PNG",
                 "alta_client": "",
                 "emissio_suport": "",
                 "carrega_recarrega": "",
@@ -874,7 +874,7 @@
                 "observacions": "Cal cita prèvia",
                 "sector": 1,
                 "corona": 1,
-                "img_cgit": "baixbus.jpg",
+                "img_cgit": "baixbus.PNG",
                 "URL": "https://www.baixbus.cat/es/atencion-al-viajero/oficina-de-atencion-horarios-y-servicio"
             },
             "geometry": {
