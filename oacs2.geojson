@@ -1055,7 +1055,8 @@
                 "MT": "SI",
                 "MTD": "NO",
                 "MTC": "NO",
-                "bloqueig": "tick.svg"
+                "bloqueig": "tick.svg", 
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "Point",
