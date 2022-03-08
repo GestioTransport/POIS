@@ -1,5 +1,6 @@
 {
     "type": "FeatureCollection",
+    "name": "oacs",
     "features": [
         {
             "type": "Feature",
@@ -11,7 +12,6 @@
                 "direccio": "Plaça de Catalunya, 08001 (Barcelona)",
                 "img": "FGC.png",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -26,14 +26,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "FGC.png",
-                "URL": "https://citaprevia.fgc.cat/fgc/?idioma=ca_ES&id_oficina_sele=0#nbb",
-                "cita": "SÍ",
+                "URL": "https:\/\/citaprevia.fgc.cat\/fgc\/?idioma=ca_ES&id_oficina_sele=0#nbb",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -52,10 +54,9 @@
                 "tel": "012",
                 "horari": "Dilluns a divendres: 09:00-14:00 i 16:00-18:30",
                 "nom_operad": "FGC",
-                "direccio": "Plaça Espanya, Gran Via de les Corts Catalanes, 8015 (Barcelona)",
+                "direccio": "Plaça Espanya, Gran Via de les Corts Catalanes, 08015 (Barcelona)",
                 "img": "FGC.png",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -70,14 +71,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "FGC.png",
-                "URL": "https://citaprevia.fgc.cat/fgc/?idioma=ca_ES&id_oficina_sele=0#nbb",
-                "cita": "SÍ",
+                "URL": "https:\/\/citaprevia.fgc.cat\/fgc\/?idioma=ca_ES&id_oficina_sele=0#nbb",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -99,7 +102,6 @@
                 "direccio": "Avinguda de la Granvia de l’Hospitalet nº 16, 08908 (L'Hospitalet de Llobregat)",
                 "img": "t-mob.png",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -114,14 +116,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "t-mob.png",
-                "URL": "https://t-mobilitat.atm.cat/web/t-mobilitat/atencio-i-ajuda/cita-previa",
-                "cita": "SÍ",
+                "URL": "https:\/\/t-mobilitat.atm.cat\/web\/t-mobilitat\/atencio-i-ajuda\/cita-previa",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "SI",
-                "MTC": "SI"
+                "MTC": "SI",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -138,15 +142,14 @@
             "properties": {
                 "poblacio": "Sant Joan Despí",
                 "tel": "900 70 11 81",
-                "horari": "Dilluns a divendres: 09:00-19:00 / Juliol i agost, dilluns a divendres: 08:00-15:00",
+                "horari": "Dilluns a divendres: 09:00-19:00 \/ Juliol i agost, dilluns a divendres: 08:00-15:00",
                 "nom_operad": "TRAM",
-                "direccio": "Av. Barcelona s/n, 08970 (Sant Joan Despí)",
+                "direccio": "Av. Barcelona s\/n, 08970 (Sant Joan Despí)",
                 "img": "TRAM.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "",
                 "carrega_recarrega": "",
                 "alta_t16": "tick.svg",
-                "alta_fn_fm": "",
+                "alta_fn_fm": "tick.svg",
                 "alta_aturat": "tick.svg",
                 "bescanvis": "tick.svg",
                 "duplicats": "",
@@ -158,14 +161,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "TRAM.jpg",
-                "URL": "https://www.tram.cat/es/canales-de-contacto",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "TRAM.png",
+                "URL": "https:\/\/www.tram.cat\/es\/canales-de-contacto",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -182,15 +187,14 @@
             "properties": {
                 "poblacio": "Sant Adrià de Besòs",
                 "tel": "900 70 11 81",
-                "horari": "Dilluns a divendres: 09:00-19:00 / Juliol i agost, dilluns a divendres: 08:00-15:00",
+                "horari": "Dilluns a divendres: 09:00-19:00 \/ Juliol i agost, dilluns a divendres: 08:00-15:00",
                 "nom_operad": "TRAM",
-                "direccio": "Av. Eduard Maristany, s/n, 08930 (Sant Adrià de Besòs)",
+                "direccio": "Av. Eduard Maristany, s\/n, 08930 (Sant Adrià de Besòs)",
                 "img": "TRAM.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "",
                 "carrega_recarrega": "",
                 "alta_t16": "tick.svg",
-                "alta_fn_fm": "",
+                "alta_fn_fm": "tick.svg",
                 "alta_aturat": "tick.svg",
                 "bescanvis": "tick.svg",
                 "duplicats": "",
@@ -202,14 +206,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "TRAM.jpg",
-                "URL": "https://www.tram.cat/es/canales-de-contacto",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "TRAM.png",
+                "URL": "https:\/\/www.tram.cat\/es\/canales-de-contacto",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -231,7 +237,6 @@
                 "direccio": "Plaça dels Països Catalans, 1-7, 08014 (Barcelona)",
                 "img": "renfe.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -246,14 +251,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
+                "img_cgit": "Rodalies.png",
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
                 "cita": "NO",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -275,7 +282,6 @@
                 "direccio": "Avinguda Josep Tarradellas,192 08901 (l'Hospitalet)",
                 "img": "renfe.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -290,14 +296,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
+                "img_cgit": "Rodalies.png",
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
                 "cita": "NO",
                 "M": "SI",
                 "MT": "NO",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -319,10 +327,9 @@
                 "direccio": "Carrer Pau Clarís nº 117, 08009 (Barcelona)",
                 "img": "Teisa.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "",
-                "alta_fn_fm": "tick.svg",
+                "alta_fn_fm": "",
                 "alta_aturat": "",
                 "bescanvis": "tick.svg",
                 "duplicats": "tick.svg",
@@ -334,14 +341,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "Teisa.jpg",
-                "URL": "http://www.teisa-bus.com/es/atencion-cliente",
+                "corona": "1",
+                "img_cgit": "Teisa.png",
+                "URL": "http:\/\/www.teisa-bus.com\/es\/atencion-cliente",
                 "cita": "NO",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "SI",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -363,7 +372,6 @@
                 "direccio": "Vestíbul de l'estació Universitat (L1-L2), Ronda de la Universitat, 08007 (Barcelona)",
                 "img": "TMB.jpg",
                 "alta_client": "",
-                "emissio_suport": "",
                 "carrega_recarrega": "",
                 "alta_t16": "",
                 "alta_fn_fm": "",
@@ -378,14 +386,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "TMB.png",
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -407,7 +417,6 @@
                 "direccio": "Vestíbul de l'estació Diagonal (L3-L5), Rambla de Catalunya, 08008 (Barcelona)",
                 "img": "TMB.jpg",
                 "alta_client": "",
-                "emissio_suport": "",
                 "carrega_recarrega": "",
                 "alta_t16": "",
                 "alta_fn_fm": "",
@@ -422,14 +431,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "TMB.png",
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -446,12 +457,11 @@
             "properties": {
                 "poblacio": "Barcelona",
                 "tel": "900 70 11 49",
-                "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:30; diumenges,  09:00-14:00",
+                "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:30; diumenges, de 09:00-14:00",
                 "nom_operad": "TMB",
                 "direccio": "Vestíbul estació Sagrada Família (L2, L5)",
                 "img": "TMB.jpg",
                 "alta_client": "",
-                "emissio_suport": "",
                 "carrega_recarrega": "",
                 "alta_t16": "",
                 "alta_fn_fm": "",
@@ -466,21 +476,23 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "TMB.png",
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "SI",
-                "MTC": "SI"
+                "MTC": "SI",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
                         2.174227185945097,
-                        41.40447159852092
+                        41.404471598520921
                     ]
                 ]
             }
@@ -495,7 +507,6 @@
                 "direccio": "Ctra. Laureà Miró, 426,  08980, Sant Feliu de Llobregat",
                 "img": "solersauret.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -510,21 +521,23 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "solersauret.jpg",
-                "URL": "https://outlook.office365.com/owa/calendar/SoleriSauret@solerisauret.com/bookings/",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "Solersauret.png",
+                "URL": "https:\/\/outlook.office365.com\/owa\/calendar\/SoleriSauret@solerisauret.com\/bookings\/",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
                         2.034769888390678,
-                        41.39464925023017
+                        41.394649250230167
                     ]
                 ]
             }
@@ -536,13 +549,12 @@
                 "tel": "900 70 11 49",
                 "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:00; diumenges, 09:00-14:00",
                 "nom_operad": "TMB",
-                "direccio": "Parada de metro Arc de Triomf L1, vestíbul (secundari), Accés Plaça d'Andradé Malraux i c/Napols 71-69, 08018 Barcelona",
+                "direccio": "Parada de metro Arc de Triomf L1, vestíbul (secundari), Accés Plaça d'Andradé Malraux i c\/Napols 71-69, 08018 Barcelona",
                 "img": "TMB.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "",
-                "alta_fn_fm": "tick.svg",
+                "alta_fn_fm": "",
                 "alta_aturat": "",
                 "bescanvis": "",
                 "duplicats": "",
@@ -554,14 +566,16 @@
                 "baixa_client": "",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "TMB.png",
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "SI",
-                "MTC": "SI"
+                "MTC": "SI",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -580,13 +594,12 @@
                 "tel": "900 70 11 49",
                 "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:00; diumenges, 09:00-14:00",
                 "nom_operad": "TMB",
-                "direccio": "Parada de metro Espanya L1, vestíbul (secundari), Accés Creu coberta (Plaça Espanya davant núm. 6-8) i c/Tarragona  08004 Barcelona",
+                "direccio": "Parada de metro Espanya L1, vestíbul (secundari), Accés Creu coberta (Plaça Espanya davant núm. 6-8) i c\/Tarragona, 08004 Barcelona",
                 "img": "TMB.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "",
-                "alta_fn_fm": "tick.svg",
+                "alta_fn_fm": "",
                 "alta_aturat": "",
                 "bescanvis": "",
                 "duplicats": "",
@@ -598,21 +611,23 @@
                 "baixa_client": "",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "TMB.png",
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "SI",
-                "MTC": "SI"
+                "MTC": "SI",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
                 "coordinates": [
                     [
                         2.148354396281658,
-                        41.37531070623403
+                        41.375310706234032
                     ]
                 ]
             }
@@ -627,10 +642,9 @@
                 "direccio": "Parada de metro Torrassa L1, vestíbul 0 (principal), accés avinguda de Catalunya (davant núm.2) 08905 L'Hospitalet de Llobregat",
                 "img": "TMB.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "",
-                "alta_fn_fm": "tick.svg",
+                "alta_fn_fm": "",
                 "alta_aturat": "",
                 "bescanvis": "",
                 "duplicats": "",
@@ -642,14 +656,16 @@
                 "baixa_client": "",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "TMB.png",
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "SI",
-                "MTC": "SI"
+                "MTC": "SI",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -671,10 +687,9 @@
                 "direccio": "Parada de metro Lesseps L3, vestíbul 0 (principal) Accés Plaça Lesseps (davant del núm. 6) 08023 Barcelona",
                 "img": "TMB.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "",
-                "alta_fn_fm": "tick.svg",
+                "alta_fn_fm": "",
                 "alta_aturat": "",
                 "bescanvis": "",
                 "duplicats": "",
@@ -686,14 +701,16 @@
                 "baixa_client": "",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "TMB.jpg",
-                "URL": "https://www.tmb.cat/es/atencion-al-cliente/gestiones/cita-previa",
-                "cita": "SÍ",
+                "corona": "1",
+                "img_cgit": "TMB.png",
+                "URL": "https:\/\/www.tmb.cat\/es\/atencion-al-cliente\/gestiones\/cita-previa",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "SI",
-                "MTC": "SI"
+                "MTC": "SI",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "MultiPoint",
@@ -715,7 +732,6 @@
                 "direccio": "Carrer Pla de Fonollar, 21, Sabadell",
                 "img": "Moventis.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -730,20 +746,22 @@
                 "baixa_client": "tick.svg",
                 "observacions": "Pagament en efectiu.",
                 "sector": 2,
-                "corona": 2,
-                "img_cgit": "Moventis.jpg",
-                "URL": "https://www.moventis.es/es/Marcas/moventis-sarbus-la-vallesana",
-                "cita": "SÍ",
+                "corona": "2",
+                "img_cgit": "Moventis.png",
+                "URL": "https:\/\/www.moventis.es\/es\/Marcas\/moventis-sarbus-la-vallesana",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     2.110780477523804,
-                    41.51397616142466
+                    41.513976161424658
                 ]
             }
         },
@@ -754,10 +772,9 @@
                 "tel": "900 41 00 41",
                 "horari": "Dilluns a divendres:  09:00-13:00 i 15:00-19:00",
                 "nom_operad": "Renfe Rodalies de Catalunya",
-                "direccio": "Estació de Plaça Catalunya, Plaça Catalunya, s/n, 08002, Barcelona",
+                "direccio": "Estació de Plaça Catalunya, Plaça Catalunya, s\/n, 08002, Barcelona",
                 "img": "renfe.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -772,14 +789,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
+                "img_cgit": "Rodalies.png",
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
                 "cita": "NO",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "Point",
@@ -799,7 +818,6 @@
                 "direccio": "Estació de Passeig de Gràcia, Passeig de Gràcia, 56, 08007, Barcelona",
                 "img": "renfe.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -814,20 +832,22 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
+                "img_cgit": "Rodalies.png",
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
                 "cita": "NO",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     2.165028154850006,
-                    41.39243106544542
+                    41.392431065445422
                 ]
             }
         },
@@ -841,7 +861,6 @@
                 "direccio": "Estació de La Sagrera-Meridiana,  Av Meridiana, 305, Barcelona",
                 "img": "renfe.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -856,14 +875,16 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
+                "img_cgit": "Rodalies.png",
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
                 "cita": "NO",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "Point",
@@ -883,7 +904,6 @@
                 "direccio": "Estació de Gavà, Carrer Salamanca, 1, 08850, Gavà",
                 "img": "renfe.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -898,20 +918,22 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
+                "img_cgit": "Rodalies.png",
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
                 "cita": "NO",
                 "M": "SI",
                 "MT": "NO",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     2.010505422949791,
-                    41.3033518897276
+                    41.303351889727601
                 ]
             }
         },
@@ -922,10 +944,9 @@
                 "tel": "900 41 00 41",
                 "horari": "Dilluns a divendres: 09:00-13:00 ",
                 "nom_operad": "Renfe Rodalies de Catalunya",
-                "direccio": "Estació del Clot,  Plaça Canonge Rodò, s/n, 08027, Barcelona",
+                "direccio": "Estació del Clot,  Plaça Canonge Rodò, s\/n, 08027, Barcelona",
                 "img": "renfe.jpg",
                 "alta_client": "tick.svg",
-                "emissio_suport": "tick.svg",
                 "carrega_recarrega": "tick.svg",
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
@@ -940,20 +961,22 @@
                 "baixa_client": "tick.svg",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
-                "img_cgit": "renfe.jpg",
-                "URL": "http://rodalies.gencat.cat/ca/alteracions_del_servei/Ariticle/T_mobilitat",
+                "corona": "1",
+                "img_cgit": "Rodalies.png",
+                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
                 "cita": "NO",
                 "M": "SI",
                 "MT": "NO",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     2.188046872615814,
-                    41.4098200883385
+                    41.409820088338499
                 ]
             }
         },
@@ -967,7 +990,6 @@
                 "direccio": "Carretera de la Vila, 2, 08840, Viladecans",
                 "img": "Baixbus.png",
                 "alta_client": "",
-                "emissio_suport": "",
                 "carrega_recarrega": "",
                 "alta_t16": "",
                 "alta_fn_fm": "",
@@ -982,20 +1004,22 @@
                 "baixa_client": "",
                 "observacions": "-",
                 "sector": 1,
-                "corona": 1,
+                "corona": "1",
                 "img_cgit": "Baixbus.png",
-                "URL": "https://www.baixbus.cat/es/atencion-al-viajero/oficina-de-atencion-horarios-y-servicio",
-                "cita": "SÍ",
+                "URL": "https:\/\/www.baixbus.cat\/es\/atencion-al-viajero\/oficina-de-atencion-horarios-y-servicio",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "NO",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg",
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     2.020567059516907,
-                    41.31488944491789
+                    41.314889444917888
                 ]
             }
         },
@@ -1009,7 +1033,6 @@
                 "direccio": "Carretera de l'Amunt, 6-8, 08757, Corbera de Llobregat",
                 "img": "Autocorb.png",
                 "alta_client": "",
-                "emissio_suport": "",
                 "carrega_recarrega": "",
                 "alta_t16": "",
                 "alta_fn_fm": "",
@@ -1024,20 +1047,22 @@
                 "baixa_client": "",
                 "observacions": "-",
                 "sector": 2,
-                "corona": 2,
+                "corona": "2",
                 "img_cgit": "Autocorb.png",
-                "URL": "https://www.autocorb.com/es/contacte/",
-                "cita": "SÍ",
+                "URL": "https:\/\/www.autocorb.com\/es\/contacte\/",
+                "cita": "SI",
                 "M": "SI",
                 "MT": "SI",
                 "MTD": "NO",
-                "MTC": "NO"
+                "MTC": "NO",
+                "bloqueig": "tick.svg", 
+                "bitllet_incidencia": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     1.917747259140014,
-                    41.41493149149915
+                    41.414931491499154
                 ]
             }
         },
