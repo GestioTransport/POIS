@@ -16,7 +16,7 @@
                 "alta_t16": "tick.svg",
                 "alta_fn_fm": "tick.svg",
                 "alta_aturat": "tick.svg",
-                "bescanvis": "",
+                "bescanvis": "tick.svg",
                 "duplicats": "tick.svg",
                 "consultes": "tick.svg",
                 "factures": "tick.svg",
@@ -940,49 +940,6 @@
         {
             "type": "Feature",
             "properties": {
-                "poblacio": "Barcelona",
-                "tel": "900 41 00 41",
-                "horari": "Dilluns a divendres: 09:00-13:00 ",
-                "nom_operad": "Renfe Rodalies de Catalunya",
-                "direccio": "Estació del Clot,  Plaça Canonge Rodò, s\/n, 08027, Barcelona",
-                "img": "Rodalies.png",
-                "alta_client": "tick.svg",
-                "carrega_recarrega": "tick.svg",
-                "alta_t16": "tick.svg",
-                "alta_fn_fm": "tick.svg",
-                "alta_aturat": "tick.svg",
-                "bescanvis": "tick.svg",
-                "duplicats": "tick.svg",
-                "consultes": "tick.svg",
-                "factures": "tick.svg",
-                "gestio_usuaris_titols_suports": "tick.svg",
-                "gestio_incidencies": "tick.svg",
-                "baixa_suport": "tick.svg",
-                "baixa_client": "tick.svg",
-                "observacions": "-",
-                "sector": 1,
-                "corona": "1",
-                "img_cgit": "Rodalies.png",
-                "URL": "http:\/\/rodalies.gencat.cat\/ca\/alteracions_del_servei\/Ariticle\/T_mobilitat",
-                "cita": "NO",
-                "M": "SI",
-                "MT": "NO",
-                "MTD": "NO",
-                "MTC": "NO",
-                "bloqueig": "tick.svg",
-                "bitllet_incidencia": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    2.188046872615814,
-                    41.409820088338499
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "poblacio": "Viladecans",
                 "tel": "93 635 71 85",
                 "horari": "Dilluns a divendres: 08:00-14:00",
@@ -997,7 +954,7 @@
                 "bescanvis": "",
                 "duplicats": "",
                 "consultes": "tick.svg",
-                "factures": "tick.svg",
+                "factures": "",
                 "gestio_usuaris_titols_suports": "tick.svg",
                 "gestio_incidencies": "tick.svg",
                 "baixa_suport": "",
@@ -1055,7 +1012,7 @@
                 "MT": "SI",
                 "MTD": "NO",
                 "MTC": "NO",
-                "bloqueig": "tick.svg", 
+                "bloqueig": "tick.svg",
                 "bitllet_incidencia": ""
             },
             "geometry": {
@@ -1097,7 +1054,7 @@
                 "MT": "NO",
                 "MTD": "NO",
                 "MTC": "NO",
-                "bloqueig": "tick.svg", 
+                "bloqueig": "tick.svg",
                 "bitllet_incidencia": ""
             },
             "geometry": {
