@@ -712,7 +712,7 @@
             "properties": {
                 "poblacio": "Sant Feliu de Llobregat",
                 "tel": "93 632 51 33",
-                "horari": "Dilluns a divendres: 09:00-14:00 i 16:00-18:30",
+                "horari": "Dilluns a divendres: 09:00-14:00",
                 "nom_operad": "Soler i Sauret",
                 "direccio": "Ctra. Laureà Miró, 426,  08980, Sant Feliu de Llobregat",
                 "img": "Solersauret.png",
@@ -1363,7 +1363,7 @@
                 "sector": 1,
                 "corona": "1",
                 "img_cgit": "Baixbus.png",
-                "URL": "https:\/\/www.baixbus.cat\/es\/atencion-al-viajero\/oficina-de-atencion-horarios-y-servicio",
+                "URL": "https://www.baixbus.cat/ca/atencio-al-viatger/oficina-datencio-al-viatger-horaris-i-servei",
                 "cita": "SI",
                 "M": "SI",
                 "MT": "NO",
