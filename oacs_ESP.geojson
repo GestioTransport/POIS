@@ -6,7 +6,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "012",
-        "horari": "Dilluns a divendres: 08:00-20:00",
+        "horari": "Lunes a viernes: 08:00-20:00",
         "nom_operad": "FGC",
         "direccio": "Plaça de Catalunya, 08001 (Barcelona)",
         "img": "FGC.png",
@@ -70,7 +70,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "012",
-        "horari": "Dilluns a divendres: 09:00-14:00 i 16:00-18:30",
+        "horari": "Lunes a viernes: 09:00-14:00 y 16:00-18:30",
         "nom_operad": "FGC",
         "direccio": "Plaça Espanya, Gran Via de les Corts Catalanes, 08015 (Barcelona)",
         "img": "FGC.png",
@@ -134,7 +134,7 @@
       "properties": {
         "poblacio": "L'Hospitalet de Llobregat",
         "tel": "900 928 900",
-        "horari": "Dilluns a divendres: 08:00 - 20:00; dissabtes, diumenges i festius, 09:00-14:00",
+        "horari": "Lunes a viernes: 08:00 - 20:00; sábados, domingos y festivos: 09:00-14:00",
         "nom_operad": "Centre d'atenció i informació T-mobilitat",
         "direccio": "Avinguda de la Granvia de l’Hospitalet nº 16, 08908 (L'Hospitalet de Llobregat)",
         "img": "t-mob.png",
@@ -198,7 +198,7 @@
       "properties": {
         "poblacio": "Sant Joan Despí",
         "tel": "900 70 11 81",
-        "horari": "Dilluns a divendres: 09:00-19:00 / Juliol i agost, dilluns a divendres: 08:00-15:00",
+        "horari": "Lunes a viernes: 09:00-19:00 / julio y agosto, lunes a viernes: 08:00-15:00",
         "nom_operad": "TRAM",
         "direccio": "Av. Barcelona s/n, 08970 (Sant Joan Despí)",
         "img": "TRAM.png",
@@ -263,7 +263,7 @@
       "properties": {
         "poblacio": "Sant Adrià de Besòs",
         "tel": "900 70 11 81",
-        "horari": "Dilluns a divendres: 09:00-19:00 / Juliol i agost, dilluns a divendres: 08:00-15:00",
+        "horari": "Lunes a viernes: 09:00-19:00 / julio y agosto, lunes a viernes: 08:00-15:00",
         "nom_operad": "TRAM",
         "direccio": "Av. Eduard Maristany, s/n, 08930 (Sant Adrià de Besòs)",
         "img": "TRAM.png",
@@ -327,7 +327,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 41 00 41",
-        "horari": "Dilluns a divendres: 09:00-13:00 i 15:00-19:00",
+        "horari": "Lunes a viernes: 09:00-13:00 y 15:00-19:00",
         "nom_operad": "Renfe Rodalies de Catalunya",
         "direccio": "Plaça dels Països Catalans, 1-7, 08014 (Barcelona)",
         "img": "Rodalies.png",
@@ -392,7 +392,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 41 00 41",
-        "horari": "Tancat temporalment",
+        "horari": "Cerrado temporalmente",
         "nom_operad": "Renfe Rodalies de Catalunya",
         "direccio": "Estació de La Sagrera-Meridiana,  Av Meridiana, 305, Barcelona",
         "img": "Rodalies.png",
@@ -455,7 +455,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "93 215 35 66",
-        "horari": "Dilluns a dijous: 08:30-16:00 i divendres 8:30-13:00",
+        "horari": "Lunes a jueves: 08:30-16:00 y viernes: 8:30-13:00",
         "nom_operad": "TEISA-Hispano Hilarienca",
         "direccio": "Carrer Pau Clarís nº 117, 08009 (Barcelona)",
         "img": "Teisa.png",
@@ -519,7 +519,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 70 11 49",
-        "horari": "Romandrà tancat fins al 31 de Desembre",
+        "horari": "PErmanecerá cerrado hasta el 31 de diciembre",
         "nom_operad": "TMB",
         "direccio": "Parada de metro Torrassa L1, vestíbul 0 (principal), accés avinguda de Catalunya (davant núm.2) 08905 L'Hospitalet de Llobregat",
         "img": "TMB.png",
@@ -584,7 +584,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 70 11 49",
-        "horari": "Dilluns a divendres: 08:00-20:00",
+        "horari": "Lunes a viernes: 08:00-20:00",
         "nom_operad": "TMB",
         "direccio": "Vestíbul de l'estació Universitat (L1-L2), Ronda de la Universitat, 08007 (Barcelona)",
         "img": "TMB.png",
@@ -648,7 +648,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 70 11 49",
-        "horari": "Dilluns a divendres: 08:00-20:00",
+        "horari": "Lunes a viernes: 08:00-20:00",
         "nom_operad": "TMB",
         "direccio": "Vestíbul de l'estació Diagonal (L3-L5), Rambla de Catalunya, 08008 (Barcelona)",
         "img": "TMB.png",
@@ -712,7 +712,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 70 11 49",
-        "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:30; diumenges, de 09:00-14:00",
+        "horari": "Lunes a viernes: 08:00-20:00; sábados: 09:00-17:30; domingos: 09:00-14:00",
         "nom_operad": "TMB",
         "direccio": "Vestíbul estació Sagrada Família (L2, L5)",
         "img": "TMB.png",
@@ -776,7 +776,7 @@
       "properties": {
         "poblacio": "Sant Feliu de Llobregat",
         "tel": "93 632 51 33",
-        "horari": "Dilluns a divendres: 09:00-14:00",
+        "horari": "Lunes a viernes: 09:00-14:00",
         "nom_operad": "Soler i Sauret",
         "direccio": "Ctra. Laureà Miró, 426,  08980, Sant Feliu de Llobregat",
         "img": "Solersauret.png",
@@ -840,7 +840,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 70 11 49",
-        "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:00; diumenges, 09:00-14:00",
+        "horari": "Lunes a viernes: 08:00-20:00; sábados: 09:00-17:00; domingos: 09:00-14:00",
         "nom_operad": "TMB",
         "direccio": "Parada de metro Arc de Triomf L1, vestíbul (secundari), Accés Plaça d'Andradé Malraux i c/Napols 71-69, 08018 Barcelona",
         "img": "TMB.png",
@@ -904,7 +904,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 70 11 49",
-        "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:00; diumenges, 09:00-14:00",
+        "horari": "Lunes a viernes: 08:00-20:00; sábados: 09:00-17:00; domingos: 09:00-14:00",
         "nom_operad": "TMB",
         "direccio": "Parada de metro Espanya L1, vestíbul (secundari), Accés Creu coberta (Plaça Espanya davant núm. 6-8) i c/Tarragona, 08004 Barcelona",
         "img": "TMB.png",
@@ -968,7 +968,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 70 11 49",
-        "horari": "Dilluns a divendres: 08:00-20:00; dissabtes, de 09:00-17:00; diumenges, 09:00-14:00",
+        "horari": "Lunes a viernes: 08:00-20:00; sábados: 09:00-17:00; domingos: 09:00-14:00",
         "nom_operad": "TMB",
         "direccio": "Parada de metro Lesseps L3, vestíbul 0 (principal) Accés Plaça Lesseps (davant del núm. 6) 08023 Barcelona",
         "img": "TMB.png",
@@ -1032,7 +1032,7 @@
       "properties": {
         "poblacio": "Sabadell",
         "tel": "93 594 98 74",
-        "horari": "Dilluns a divendres: 08:00-18:00",
+        "horari": "Lunes a viernes: 08:00-18:00",
         "nom_operad": "Sarbus",
         "direccio": "Carrer Pla de Fonollar, 21, Sabadell",
         "img": "Moventis.png",
@@ -1094,7 +1094,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 41 00 41",
-        "horari": "Dilluns a divendres:  09:00-13:00 i 15:00-19:00",
+        "horari": "Lunes a viernes:  09:00-13:00 y 15:00-19:00",
         "nom_operad": "Renfe Rodalies de Catalunya",
         "direccio": "Estació de Plaça Catalunya, Plaça Catalunya, s/n, 08002, Barcelona",
         "img": "Rodalies.png",
@@ -1156,7 +1156,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 41 00 41",
-        "horari": "Dilluns a divendres:  09:00-13:00 i 15:00-19:00",
+        "horari": "Lunes a viernes:  09:00-13:00 y 15:00-19:00",
         "nom_operad": "Renfe Rodalies de Catalunya",
         "direccio": "Estació de Passeig de Gràcia, Passeig de Gràcia, 56, 08007, Barcelona",
         "img": "Rodalies.png",
@@ -1218,7 +1218,7 @@
       "properties": {
         "poblacio": "Gavà",
         "tel": "900 41 00 41",
-        "horari": "Dilluns a divendres:  09:00-13:00",
+        "horari": "Lunes a viernes:  09:00-13:00",
         "nom_operad": "Renfe Rodalies de Catalunya",
         "direccio": "Estació de Gavà, Carrer Salamanca, 1, 08850, Gavà",
         "img": "Rodalies.png",
@@ -1280,7 +1280,7 @@
       "properties": {
         "poblacio": "Barcelona",
         "tel": "900 41 00 41",
-        "horari": "Dilluns a divendres:  09:00-13:00",
+        "horari": "Lunes a viernes:  09:00-13:00",
         "nom_operad": "Renfe Rodalies de Catalunya",
         "direccio": "Estació del Clot, Plaçá Canonge Rodó, s/n, 08027, Barcelona",
         "img": "Rodalies.png",
@@ -1342,7 +1342,7 @@
       "properties": {
         "poblacio": "Terrassa",
         "tel": "900 41 00 41",
-        "horari": "Dilluns a divendres:  09:00-13:00",
+        "horari": "Lunes a viernes:  09:00-13:00",
         "nom_operad": "Renfe Rodalies de Catalunya",
         "direccio": "Estació de Terrassa, plaá de l'Estació del Nord, 08221, Terassa",
         "img": "Rodalies.png",
@@ -1404,7 +1404,7 @@
       "properties": {
         "poblacio": "Mataró",
         "tel": "900 41 00 41",
-        "horari": "Dilluns a divendres:  09:00-13:00",
+        "horari": "Lunes a viernes:  09:00-13:00",
         "nom_operad": "Renfe Rodalies de Catalunya",
         "direccio": "Estació de Mataró, av. del Maresme, 166, 08301, Mataró",
         "img": "Rodalies.png",
@@ -1466,7 +1466,7 @@
       "properties": {
         "poblacio": "Terrassa",
         "tel": "012",
-        "horari": "Dilluns a divendres: 08:00-20:00",
+        "horari": "Lunes a viernes: 08:00-20:00",
         "nom_operad": "FGC",
         "direccio": "Estació de Terrassa Rambla, Rambla d'Ègara/pl. Anselm Clavé, 08224, Terrassa",
         "img": "FGC.png",
@@ -1528,7 +1528,7 @@
       "properties": {
         "poblacio": "Sabadell",
         "tel": "012",
-        "horari": "Dilluns a divendres: 08:00-20:00",
+        "horari": "Lunes a viernes: 08:00-20:00",
         "nom_operad": "FGC",
         "direccio": "Estació de Sabadell Plaça Major, passeig de la Plaça Major, 15A, 08201, Sabadell",
         "img": "FGC.png",
@@ -1590,7 +1590,7 @@
       "properties": {
         "poblacio": "Viladecans",
         "tel": "93 635 71 85",
-        "horari": "Dilluns a divendres: 08:00-14:00",
+        "horari": "Lunes a viernes: 08:00-14:00",
         "nom_operad": "Baixbus",
         "direccio": "Carretera de la Vila, 2, 08840, Viladecans",
         "img": "Baixbus.png",
@@ -1652,7 +1652,7 @@
       "properties": {
         "poblacio": "Corbera de Llobregat",
         "tel": "93 650 07 35",
-        "horari": "Dilluns a divendres: 09:00-18:00",
+        "horari": "Lunes a viernes: 09:00-18:00",
         "nom_operad": "Autocorb",
         "direccio": "Carretera de l'Amunt, 6-8, 08757, Corbera de Llobregat",
         "img": "Autocorb.png",
@@ -1714,7 +1714,7 @@
       "properties": {
         "poblacio": "Sabadell",
         "tel": "93 580 67 00",
-        "horari": "Dilluns a divendres: 09:00-13:00 i 16:00-19:00",
+        "horari": "Lunes a viernes: 09:00-13:00 y 16:00-19:00",
         "nom_operad": "Sarbus",
         "direccio": "Carrer de l'Estació, 67, 08202, Sabadell",
         "img": "Moventis.png",
@@ -1779,7 +1779,7 @@
         "direccio": "Carrer Tamarit, 105,  08291, Ripollet",
         "img": "Font.png",
         "nom_operad": "Font",
-        "horari": "Dilluns a divendres: 09:00-13:00",
+        "horari": "Lunes a viernes: 09:00-13:00",
         "alta_client": "tick.svg",
         "emissio_suport": "tick.svg",
         "carrega_recarrega": "tick.svg",
@@ -1837,7 +1837,7 @@
       "properties": {
         "poblacio": "Sabadell",
         "tel": 90041041,
-        "horari": "Dilluns a divendres: 09:00-13:00",
+        "horari": "Lunes a viernes: 09:00-13:00",
         "nom_operad": "Renfe Rodalies de Catalunya",
         "direccio": "Estació de Sabadell Nord, pl. d' Espanya, 13, 08207, Sabadell",
         "img": "Rodalies.png",
