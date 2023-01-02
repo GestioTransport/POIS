@@ -39,7 +39,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -79,7 +80,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -119,7 +121,8 @@
 				"MTD" : "SI",
 				"MTC" : "SI",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -159,7 +162,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -199,7 +203,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -239,7 +244,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -357,7 +363,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "NO"
 			}
 		},
 		{
@@ -397,7 +404,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -437,7 +445,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -477,7 +486,8 @@
 				"MTD" : "SI",
 				"MTC" : "SI",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -517,7 +527,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -557,7 +568,8 @@
 				"MTD" : "SI",
 				"MTC" : "SI",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -597,7 +609,8 @@
 				"MTD" : "SI",
 				"MTC" : "SI",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -637,7 +650,8 @@
 				"MTD" : "SI",
 				"MTC" : "SI",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -675,7 +689,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -713,7 +728,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -751,7 +767,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -789,7 +806,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -827,7 +845,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -865,7 +884,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -903,7 +923,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -941,7 +962,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -979,7 +1001,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -1017,7 +1040,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -1055,7 +1079,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -1093,7 +1118,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -1130,7 +1156,8 @@
 				"MTD" : "NO",
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
-				"bitllet_incidencia" : ""
+				"bitllet_incidencia" : "",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -1167,7 +1194,8 @@
 				"MT" : "NO",
 				"MTD" : "NO",
 				"MTC" : "NO",
-				"bloqueig" : "tick.svg"
+				"bloqueig" : "tick.svg",
+				"obert" : "SI"
 			}
 		},
 		{
@@ -1206,7 +1234,8 @@
 				"MTC" : "NO",
 				"bloqueig" : "tick.svg",
 				"bitllet_incidencia" : "",
-				"webcita_l" : "WEB I CITA PRÈVIA"
+				"webcita_l" : "WEB I CITA PRÈVIA",
+				"obert" : "SI"
 			}
 		}
 	]
