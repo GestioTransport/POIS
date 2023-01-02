@@ -1,106 +1,59 @@
 {
-    "literals": [
+    "serveis": [
         {
-            "id": "desplegable",
-            "descripcio_ca": "Informació i filtres",
-            "descripcio_es": "Información y filtros",
-            "descripcio_en": "Information & filters"
+            "id": "alta_client",
+            "descripcio_ca": "Alta de persona usuària",
+            "descripcio_es": "Alta de persona usuaria",
+            "descripcio_en": "User registration"
+        },
+     
+        {
+            "id": "carrega_recarrega",
+            "descripcio_ca": "Compra de targeta i títols",
+            "descripcio_es": "Compra de targeta y títulos",
+            "descripcio_en": "Buy cards and tickets"
         },
         {
-            "id": "informacio",
-            "descripcio_ca": "Informació",
-            "descripcio_es": "Información",
-            "descripcio_en": "Information"
+            "id": "bescanvis",
+            "descripcio_ca": "Bescanvis",
+            "descripcio_es": "Canjes",
+            "descripcio_en": "Exchanges"
         },
         {
-            "id": "filtres",
-            "descripcio_ca": "Filtres",
-            "descripcio_es": "Filtros",
-            "descripcio_en": "Filters"
+            "id": "bloqueig",
+            "descripcio_ca": "Bloqueig i desbloqueig",
+            "descripcio_es": "Bloqueo y desbloqueo",
+            "descripcio_en": "Lock & Unlock"
         },
         {
-            "id": "capes",
-            "descripcio_ca": "Capes",
-            "descripcio_es": "Capas",
-            "descripcio_en": "Layers"
+            "id": "duplicats",
+            "descripcio_ca": "Duplicats",
+            "descripcio_es": "Duplicados",
+            "descripcio_en": "Duplicates"
         },
         {
-            "id": "serveis",
-            "descripcio_ca": "Serveis",
-            "descripcio_es": "Servicios",
-            "descripcio_en": "Services"
+            "id": "factures",
+            "descripcio_ca": "Factures",
+            "descripcio_es": "Facturas",
+            "descripcio_en": "Invoices"
         },
         {
-            "id": "horari",
-            "descripcio_ca": "Horari presencial",
-            "descripcio_es": "Horario presencial",
-            "descripcio_en": "Opening hours"
+            "id": "gestio_usuaris_titols_suports",
+            "descripcio_ca": "Altres gestions",
+            "descripcio_es": "Otras gestiones",
+            "descripcio_en": "Other arrangements"
         },
         {
-            "id": "telefon",
-            "descripcio_ca": "Telèfon",
-            "descripcio_es": "Teléfono",
-            "descripcio_en": "Phone number"
+            "id": "gestio_incidencies",
+            "descripcio_ca": "Gestió d'incidències",
+            "descripcio_es": "Gestión de incidencias",
+            "descripcio_en": "Incident management"
         },
         {
-            "id": "direccio",
-            "descripcio_ca": "Adreça",
-            "descripcio_es": "Dirección",
-            "descripcio_en": "Address"
-        },
-        {
-            "id": "cita",
-            "descripcio_ca": "Cita prèvia",
-            "descripcio_es": "Cita previa",
-            "descripcio_en": "Previous appointment"
-        },
-        {
-            "id": "observacions",
-            "descripcio_ca": "Observacions",
-            "descripcio_es": "Observaciones",
-            "descripcio_en": "Observations"
-        },
-        {
-            "id": "cartografia",
-            "descripcio_ca": "Selecciona cartografia de base: ",
-            "descripcio_es": "Selecciona cartografía de base: ",
-            "descripcio_en": "Select base cartography: "
-        },
-        {
-            "id": "topografic",
-            "descripcio_ca": "Topogràfic",
-            "descripcio_es": "Topográfico",
-            "descripcio_en": "Topographic"
-        },
-        {
-            "id": "nocturn",
-            "descripcio_ca": "Nocturn",
-            "descripcio_es": "Nocturno",
-            "descripcio_en": "Night mode"
-        },
-        {
-            "id": "satelit",
-            "descripcio_ca": "Satèl·lit",
-            "descripcio_es": "Satélite",
-            "descripcio_en": "Satellite"
-        },
-        {
-            "id": "web",
-            "descripcio_ca": "WEB I CITA PRÈVIA",
-            "descripcio_es": "WEB Y CITA PREVIA",
-            "descripcio_en": "WEB & APPOINTMENT"
-        },
-        {
-            "id": "aplica",
-            "descripcio_ca": "Aplica filtres",
-            "descripcio_es": "Aplica filtros",
-            "descripcio_en": "Apply filters"
-        },
-        {
-            "id": "esborra",
-            "descripcio_ca": "Esborra filtres",
-            "descripcio_es": "Borrar filtros",
-            "descripcio_en": "Delete filters"
+            "id": "alta_fn_fm",
+            "descripcio_ca": "Alta FM/FN",
+            "descripcio_es": "Alta FM/FN",
+            "descripcio_en": "FM/FN profile"
         }
     ]
 }
