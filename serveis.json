@@ -1,0 +1,59 @@
+{
+    "serveis": [
+        {
+            "id": "alta_client",
+            "descripcio_ca": "Alta de persona usuària",
+            "descripcio_es": "Alta de persona usuaria",
+            "descripcio_en": "User registration"
+        },
+     
+        {
+            "id": "carrega_recarrega",
+            "descripcio_ca": "Compra de targeta i títols",
+            "descripcio_es": "Compra de targeta y títulos",
+            "descripcio_en": "Buy cards and tickets"
+        },
+        {
+            "id": "bescanvis",
+            "descripcio_ca": "Bescanvis",
+            "descripcio_es": "Canjes",
+            "descripcio_en": "Exchanges"
+        },
+        {
+            "id": "bloqueig",
+            "descripcio_ca": "Bloqueig i desbloqueig",
+            "descripcio_es": "Bloqueo y desbloqueo",
+            "descripcio_en": "Lock & Unlock"
+        },
+        {
+            "id": "duplicats",
+            "descripcio_ca": "Duplicats",
+            "descripcio_es": "Duplicados",
+            "descripcio_en": "Duplicates"
+        },
+        {
+            "id": "factures",
+            "descripcio_ca": "Factures",
+            "descripcio_es": "Facturas",
+            "descripcio_en": "Invoices"
+        },
+        {
+            "id": "gestio_usuaris_titols_suports",
+            "descripcio_ca": "Altres gestions",
+            "descripcio_es": "Otras gestiones",
+            "descripcio_en": "Other arrangements"
+        },
+        {
+            "id": "gestio_incidencies",
+            "descripcio_ca": "Gestió d'incidències",
+            "descripcio_es": "Gestión de incidencias",
+            "descripcio_en": "Incident management"
+        },
+        {
+            "id": "alta_fn_fm",
+            "descripcio_ca": "Alta FM/FN",
+            "descripcio_es": "Alta FM/FN",
+            "descripcio_en": "FM/FN profile"
+        }
+    ]
+}
